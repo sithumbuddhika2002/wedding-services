@@ -30,7 +30,7 @@ export function Hero() {
     <section ref={ref} className="relative min-h-screen flex items-center overflow-hidden">
       <motion.div style={{ y, scale }} className="absolute inset-0 z-0">
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="/hero.jpg"
           alt="Wedding backdrop"
           fill
           priority
@@ -42,7 +42,7 @@ export function Hero() {
       {/* Animated decorative elements */}
       <motion.div animate={floatingAnimation} className="absolute top-20 right-10 w-64 h-64 opacity-20">
         <Image
-          src="/placeholder.svg?height=300&width=300"
+          src="/hero.jpg"
           alt="Floral decoration"
           width={300}
           height={300}
@@ -64,7 +64,7 @@ export function Hero() {
         className="absolute bottom-20 left-10 w-48 h-48 opacity-20"
       >
         <Image
-          src="/placeholder.svg?height=300&width=300"
+          src="/hero.jpg"
           alt="Floral decoration"
           width={300}
           height={300}
